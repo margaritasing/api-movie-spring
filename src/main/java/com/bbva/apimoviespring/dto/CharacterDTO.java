@@ -13,17 +13,10 @@ import lombok.Setter;
 @Setter
 
 public class CharacterDTO {
-
     private Long character_id;
     private String imagen;
     private String nombre;
     private String edad;
     private String peso;
     private String historia;
-
-
-
-
-
-
 }

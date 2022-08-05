@@ -14,6 +14,5 @@ public class GenreDTO {
     private Long genre_id;
     private String name;
     private String image;
-
 }
 

@@ -19,15 +19,11 @@ import java.util.List;
 @Getter
 @Setter
 public class MovieDTO {
-
     private Long movie_id;
     private String title;
     private String image_url;
     private Long year;
     private Long score;
-
-
-
 
 }
 
