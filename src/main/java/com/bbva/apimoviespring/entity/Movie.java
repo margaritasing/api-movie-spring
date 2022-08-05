@@ -46,5 +46,19 @@ public class Movie {
     @ManyToMany(mappedBy = "movies", fetch = FetchType.LAZY)
     private List<Genre> genres;
 
-
+    @Override
+    public String toString() {
+        return "Movie{" +
+                "movie_id=" + movie_id +
+                ", title='" + title + '\'' +
+                ", image_url='" + image_url + '\'' +
+                ", year=" + year +
+                ", score=" + score +
+                ", deleted=" + deleted +
+                ", createdAt=" + createdAt +
+                ", updatedAt=" + updatedAt +
+                ", characters=" + characters +
+                ", genres=" + genres +
+                '}';
+    }
 }
