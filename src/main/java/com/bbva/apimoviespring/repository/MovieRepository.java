@@ -11,13 +11,7 @@ import java.util.List;
 @Repository
 public interface MovieRepository extends JpaRepository<Movie, Long> {
 
-    List<Movie> findMoviesByTitle(String title);
 
-    List<Movie>findMoviesByTitleOrderByTitle(String title);
-
-    List<Movie> findMoviesByGenresContains(Genre genre);
-
-    List<Movie>findMoviesByGenresContainsAndTitle(String title, Genre genre);
 
 
 
